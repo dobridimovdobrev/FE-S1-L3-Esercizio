@@ -1,0 +1,145 @@
+/* base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+p {
+    margin: 2rem 0;
+}
+/* reusable class */
+.text-center {
+    text-align: center;
+}
+
+/* all content container */
+.container {
+    margin: 0 auto;
+    max-width: 70rem;
+    padding: 0 1.6rem;
+}
+
+/* Logo */
+.logo-image {
+    width: 15rem;
+    padding: 2rem 0;
+}
+
+/* banner */
+.page-description-section {
+    background-color: #fcf8f0;
+    padding: 2rem 0;
+    border-top: 2px solid #d0d010;
+}
+
+/* page description */
+.page-description {
+    color: #b28b47;
+    font-size: 1.6rem;
+}
+
+/* section title */
+.section-title {
+    margin: 9rem 0 5rem 0;
+}
+
+/* page title */
+.page-title {
+    margin: 0 auto 3rem;
+    max-width: 41rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8rem;
+}
+/* intro text */
+.intro-text {
+    font-size: 1.8rem;
+    color: #444;
+    max-width: 55rem;
+    margin: 0 auto 3rem;
+}
+
+/*  focaccia image */
+.focaccia-image {
+    max-width: 100%;
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+/* figcaption focaccia */
+.focaccia-image-info {
+    margin: 1rem 0 3rem 0;
+    color: gray;
+    font-size: 1.4rem;
+}
+
+/* featured div */
+.featured {
+    margin: 2rem 0;
+    padding-left: 1.6rem;
+    border-left: 2px solid orange;
+}
+/* featured title */
+.featured-title {
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+/* featured link */
+.featured-link {
+    font-size: 1.6rem;
+    color: #107777;
+    /* text-decoration: none; */
+}
+
+
+/* ingredients section */
+.ingredients {
+    margin: 4rem 0;
+}
+
+/* ingredients title */
+.ingredients h2,
+.method h2 {
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+}
+
+/* ingredients list title */
+.ingredients h3 {
+    font-size: 1.8rem;
+    margin: 1.6rem 0 0.8rem;
+}
+
+/* ingredients unordered list */
+.ingredients ul {
+    margin-left: 2rem;
+    list-style: disc;
+}
+
+/* method */
+.method ol {
+    margin-left: 2rem;
+}
+
+/* read more link */
+.read-more {
+    font-size: 1.6rem;
+    color: #107777;
+    /* text-decoration: none; */
+}
+
+
